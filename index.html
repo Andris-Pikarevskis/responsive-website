@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive landing page</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">LOGO</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="home">
+        <div class="textBox">
+            <h2>Hello!<br><span>this my web page</span></h2>
+            <h3>I made menay interesting services</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About us</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Company name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eum beatae, ut nam hic illo
+                    tempora architecto nihil voluptas dolores laboriosam dolor itaque a eaque non iure nemo maiores
+                    dignissimos.<br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae excepturi dolores
+                    laboriosam dolor itaque a eaque non iure nemo maiores
+                    aliquam? Iusto qui neque iure.</p>
+            </div>
+            <div class="w50">
+                <img src="images/autumn.jpg" alt="there must be pisture" class="img">
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur quo!</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="images/icon1.png" alt="web design">
+                <h2>Web design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. odio.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="images/icon2.png" alt="web design">
+                <h2>Web development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. odio.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="images/icon3.png" alt="web design">
+                <h2>Android App</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. odio.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="images/icon4.png" alt="web design">
+                <h2>Photograhy</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. odio.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="images/icon5.png" alt="web design">
+                <h2>Content writing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. odio.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="images/icon6.png" alt="web design">
+                <h2>Video editing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. odio.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Our Latest Work</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur quo!</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img src="images/pexels-pavel-danilyuk-6461401.jpg" alt="product">
+            </div>
+            <div class="workBx">
+                <img src="images/pexels-eprism-studio-335257.jpg" alt="product">
+            </div>
+            <div class="workBx">
+                <img src="images/pexels-klaus-nielsen-6287324.jpg" alt="product">
+            </div>
+            <div class="workBx">
+                <img src="images/pexels-olga-lioncat-7245432.jpg" alt="product">
+            </div>
+        </div>
+        <div class="heading">
+            <a href="#" class="btn">Viev more</a>
+        </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+        <div class="heading">
+            <h2>Testimonial</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus doloribus laborum praesentium
+                    perferendis sint aliquid, repellat nemo. Ex, itaque magni. Fuga numquam, deserunt harum
+                    tempora quibusdam officia, nemo ipsum asperiores voluptatibus commodi facilis incidunt
+                    necessitatibus
+                    voluptates similique, velit porro Maxime inventore nisi quae rem ab, laboriosam optio
+                    expedita distinctio architecto deserunt officia!</p>
+                <h3>Someone Famous<br><span>Creative Designer</span></h3>
+            </div>
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus doloribus laborum praesentium
+                    perferendis sint aliquid, repellat nemo. Ex, itaque magni. Fuga numquam, deserunt harum
+                    tempora quibusdam officia, nemo ipsum asperiores voluptatibus commodi facilis incidunt
+                    necessitatibus
+                    voluptates similique, velit porro Maxime inventore nisi quae rem ab, laboriosam optio
+                    expedita distinctio architecto deserunt officia!</p>
+                <h3>Someone Famous<br><span>Creative Designer</span></h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Sazinietiesar mums</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="contactInfoBx">
+                <h3>Kontakti</h3>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Addrese</h3>
+                        <p>Mihoels iela 56<br>Daugavpils Lavia<br>LV-5400</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Telefons</h3>
+                        <p>+371 28823689</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-envelope-o"></i>
+                    </div>
+                    <div class="text">
+                        <h3>E-pasts</h3>
+                        <p>a.pikarevskis@latinsoft.lv</p>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Uzrakstiet mums</h3>
+                    <input type="text" name="" placeholder="Vārds Uzvārds">
+                    <input type="email" name="" placeholder="mail@mail.lv">
+                    <textarea placeholder="Jūsu ziņojums"></textarea>
+                    <input type="submit" value="Sūtīt">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Copyright © 2021 Andris Pikarevskis. All RIghts Reserved</p>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
